@@ -1,0 +1,2064 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 7]> <html lang="en" class="no-js ie7 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie9"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head><meta http-equiv="x-ua-compatible" content="IE=edge">
+<script type="text/javascript" src="//static.springer.com/spcom/js/vendor/googleapis/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.optimizely.com/js/8200882355.js"></script>
+<script type="text/javascript" id="angular-script" src="//static.springer.com/spcom/js/vendor/googleapis/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+<script type="text/javascript" id="script--1908162026" src="//static.springer.com/spcom/min/prod.js?r=201802052258-98"></script>
+<link rel="stylesheet" type="text/css" href="//static.springer.com/spcom/min/modern_sprcom-cms-frontend_apress.css?r=201802052258-98" />
+<!--[if (lt IE 9) & (!IEMobile)]><link rel="stylesheet" type="text/css" href="//static.springer.com/spcom/min/ielt9_sprcom-cms-frontend_apress.css?r=201802052258-98" media="screen" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="//static.springer.com/spcom/min/print.css?r=201802052258-98" media="print" />
+<link rel="stylesheet" type="text/css" href="/spcom/css/vendor/font-awesome.min.css?r=201802052258-98" />
+<!--[if lt IE 9]><script type="text/javascript" id="ielt9js" charset="utf-8" src="//static.springer.com/spcom/min/ielt9.js"></script>
+<![endif]-->
+<script type="text/javascript" src="./spcom-wicket/spcom-resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-event-jquery.min-ver-87249521D58623E8D15C637C803164BE.js"></script>
+<script type="text/javascript" src="./spcom-wicket/spcom-resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-ajax-jquery.min-ver-1E3E2C819CFEECC7B8726A03B239BFC4.js"></script>
+<script type="text/javascript" id="wicket-ajax-base-url">
+/*<![CDATA[*/
+Wicket.Ajax.baseUrl="us";
+/*]]>*/
+</script>
+<script type="text/javascript" id="cm-context-url">
+/*<![CDATA[*/
+var cmContextUrl = '/apress-us/us';
+/*]]>*/
+</script>
+
+<title>Apress</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+
+<link rel="icon" href="favicon.ico" type="image/ico">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<script>
+/*<![CDATA[*/
+
+document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+dataLayer = [{'geo-country-code' : 'CA'}];</script>
+
+<!-- Google Tag Manager -->
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl+'&gtm_auth=H9WR51Mt3jYIbQSiz_4-IQ&gtm_preview=env-1&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M48LJF');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta name="description" content="Browse all Apress titles for quality content for developers, IT professionals, and tech communities worldwide.">
+<meta http-equiv="content-language" content="en_US">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta property="og:title" content="Apress">
+<meta property="og:description" content="Browse all Apress titles for quality content for developers, IT professionals, and tech communities worldwide.">
+<meta property="og:site_name" content="www.apress.com">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.springer.com/cda/content/image/cda_displayimage.jpg?SGWID=0-0-16-2208184-0">
+<meta property="fb:admins" content="100001154999617">
+<meta property="fb:pages" content="341168879741, 143932312346551, 199235833463190, 145327659223282, 304238573037854, 346209515556394, 99912541035, 108064145914608, 370429855420, 170400356321916, 273358886101252, 370987992963178, 1565916643629420, 424373190938938, 152586274808123, 152749531404582, 274648772592090, 168287986591458, 284820978207661, 121336764582486, 174395066291972, 124330454291947, 58364190265, 114336798618606, 177450032338982, 460115770673632, 526326927441845, 401070179903991, 35223474166, 2055004118104490, 227993570999679, 121053321387843, 146393288729580">
+<link rel="alternate" href="/cn" hreflang="zh-CN">
+<link rel="alternate" href="/kr" hreflang="ko-KR">
+<link rel="alternate" href="/jp" hreflang="ja">
+<link rel="alternate" href="/br" hreflang="pt-BR">
+<link rel="alternate" href="/de" hreflang="de">
+<link rel="alternate" href="/in" hreflang="hi-IN">
+<link rel="alternate" href="/la" hreflang="es">
+<link rel="alternate" href="/gp" hreflang="en">
+<link rel="alternate" href="/it" hreflang="it-IT">
+<link rel="alternate" href="/fr" hreflang="fr-FR">
+<link rel="alternate" href="/gb" hreflang="en-GB">
+<script type="text/javascript" id="trackedAffiliates">
+/*<![CDATA[*/
+var trackedAffiliates = ['PPC.Google AdWords.3.EPR653.SM', 'Affiliate.CommissionJunction.3.EPR868-EN', 'PDM.Soquero.3.EPR653', 'PPC.Google AdWords.EPR653-GoogleShopping_Product_EN', 'PPC.Google AdWords.3.EPR653.DAL', 'Affiliate.Zanox.3.EPR868-DE', 'PPC.Google AdWords.3.EPR653.GMT', 'Affiliate.CommissionJunction.3.EPR868-DE', 'PPC.Google AdWords.EPR653-GoogleShopping_Product_CH', 'PDM.ChannelAdvisor.3.EPR653', 'Banner.Banner RTB.3.EPR653.Sociomantic', 'PPC.Google AdWords.EPR653-GoogleShopping_Product_DE', 'Affiliate.Zanox.3.EPR868-EN', 'PPC.Google AdWords.3.EPR653.IT', 'PPC.Google AdWords.3.EPR653.FR', 'PPC.BING.3.EPR632-DS-PPC-DAL', 'PPC.Google AdWords.3.EPR653.West', 'PPC.Google AdWords.EPR653-GoogleShopping_Product_UK', 'Banner.Banner RTB.3.EPR653.Criteo', 'PPC.BING.3.EPR632.West', 'PPC.BING.3.EPR632.DAL'];
+var generalCookieDomain = '.apress.com';
+
+/*]]>*/
+</script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+<script type="text/javascript" >
+/*<![CDATA[*/
+Wicket.Event.add(window, "domready", function(event) { 
+Wicket.Ajax.ajax({"sc":":submit","c":"id4b","u":"./us?1-1.IBehaviorListener.0-body-content-rows-0-columns-0-area-components-0-item-components-10-item-grid-grid_body-row-column-1-item-grid-grid_body-container-form-submit","e":"click","f":"id4a","bsh":[function(attrs, jqXHR, settings){;$('#id4b').addClass('btn-loading').removeClass('btn-primary');$('button#id4b').attr('disabled', 'disabled')}],"m":"POST","coh":[function(attrs, jqXHR, textStatus){if(jqXHR.responseText.indexOf('<ajax-response><redirect>')!=0){;$('#id4b').addClass('btn-primary');$('button#id4b').removeAttr('disabled')};$('#id4b').removeClass('btn-loading');if (typeof Wicket.channelManager.channels['0'] != 'undefined') Wicket.channelManager.channels['0'].callbacks = new Array();}]});;
+;});
+/*]]>*/
+</script>
+</head>
+<body class="cms  cms-lang-us cms-client-apress">
+<div>
+<a class="link" id="print-header" href="http://www.apress.com">
+<img src="/spcom/sites/apress/images/logo-print.png" />
+www.apress.com
+</a>
+</div>
+<div class="page-wrapper">
+<header>
+<script type="text/javascript" src="//static.springer.com/spcom/min/201802052258-98/apress.header.prod.js" defer="defer"></script>
+<div class="branding-container">
+<div class="row">
+<div class="columns small-6 large-4">
+<a class="brand" href="/" title="Apress">
+<img src="/spcom/sites/apress/images/logo.svg" alt="apress" />
+</a>
+</div>
+<nav class="columns small-6 hide-for-large meta">
+<ul>
+<li class="meta__search">
+<a href="#search" class="search icon">
+Search
+</a>
+</li>
+<li class="meta__menu">
+<a href="#menu" class="menu icon">
+Menu
+</a>
+</li>
+</ul>
+</nav>
+<nav class="columns large-8 small-12 user">
+<ul class="menu--primary">
+<li class="cart" id="basket-widget" data-site-prefix="us" data-cart-page-link="https://checkout.apress.com/checkout/cart" data-messages__cart-empty="Your cart is currently empty.">
+<script type="text/mustache-template" id="mustache-template--cart">
+<div class="cart__contents">
+<table>
+<thead>
+<tr>
+<th>Cover</th>
+<th>Description</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+{{#items}}
+<tr>
+<td class="cover" rowspan="3">
+<figure class="cover">
+<img src="{{{coverUrl}}}">
+</figure>
+</td>
+<td class="title"><a href="{{productLinkFragment}}">{{title}}</a></td>
+<td class="price" rowspan="3">{{{price}}}</td>
+</tr>
+<tr>
+<td class="description">{{description}}</td>
+</tr>
+<tr>
+<td class="quantity">Quantity: {{quantity}}</td>
+</tr>
+{{/items}}
+</tbody>
+<tfoot>
+<tr class="total">
+<td class="" colspan="2">{{resources.subtotal}}</td>
+<td class="subtotal">{{{totalPrice}}}</td>
+</tr>
+</tfoot>
+</table>
+<div class="cart-buttons">
+<a href="https://checkout.apress.com/checkout/cart" class="btn btn-primary btn-monster">{{resources.viewCart}}</a>
+</div>
+</div>
+</script>
+<a href="https://checkout.apress.com/checkout/cart" class="cart">
+<span class="label">Cart </span>
+<span class="font-icon">V</span>
+<span class="quantity"></span>
+</a>
+<div class="cart__contents cart--empty__contents">Your cart is currently empty.</div>
+</li>
+<li class="account">
+
+<a class="logout" href="#">Login</a>
+<ul class="menu--secondary items">
+
+<li class=""><a href="https://www.apress.com/public/profile">Account</a></li><li class=""><a href="https://www.apress.com/public/profile/bookshelf">Bookshelf</a></li>
+
+<li><a href="http://login.apress.com/public/en/login" class="account-link login-link returnURL">Login</a></li>
+<li></li>
+</ul>
+</li>
+<li class="access">
+<a href="http://www.apress.com/apress-access" class="link--action link--direct">Apress Access</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="navi-container">
+<nav class="row main">
+<ul class="menu--primary columns large-8" id="mainNavigation">
+<li><a href="#">Categories</a><ul class="menu--secondary">
+<li class=""><a href="/us/apple">Apple &amp; iOS</a></li><li class=""><a href="/us/big-data">Big Data &amp; Analytics</a></li><li class=""><a href="/us/business">Business</a></li><li class=""><a href="/us/databases">Databases</a></li><li class=""><a href="/us/enterprise-software">Enterprise Software</a></li><li class=""><a href="/us/game-development">Game Development</a></li><li class=""><a href="/us/graphics">Graphics</a></li><li class=""><a href="/us/hardware-maker">Hardware &amp; Maker</a></li><li class=""><a href="/us/java">Java</a></li><li class=""><a href="/us/machine-learning">Machine Learning</a></li><li class=""><a href="/us/microsoft">Microsoft &amp; .NET</a></li><li class=""><a href="/us/mobile">Mobile</a></li><li class=""><a href="/us/networking">Networking &amp; Cloud</a></li><li class=""><a href="/us/open-source">Open Source</a></li><li class=""><a href="/us/programming">Programming</a></li><li class=""><a href="/us/python">Python</a></li><li class=""><a href="/us/security">Security</a></li><li class=""><a href="/us/web-development">Web Development</a></li><li class=""><a href="/us/services/publishing-partners">Publishing Partners</a></li>
+</ul></li><li><a href="#">Services</a><ul class="menu--secondary">
+<li class=""><a href="/us/about">About Us</a></li><li class=""><a href="/us/services/academics">Academics</a></li><li class=""><a href="/us/shop/affiliate">Affiliate Program</a></li><li class=""><a href="/us/services/book-reviewers">Book Reviewers</a></li><li class=""><a href="/us/services/customer-support/buying-in-the-apress-shop">Customer Support</a></li><li class=""><a href="/us/services/events">Events</a></li><li class=""><a href="/us/services/news">News &amp; Newsletter</a></li><li class=""><a href="/us/services/rights-permission">Rights &amp; Permissions</a></li><li class=""><a href="/us/services/source-code">Source Code</a></li><li class=""><a href="/us/services/errata">Submit Errata</a></li><li class=""><a href="/us/services/tech-review">Technical Reviewers</a></li><li class=""><a href="/us/services/user-groups">User Groups</a></li>
+</ul></li><li><a href="/us/apress-open">Apress Open</a></li><li><a href="/us/blog">Blog</a></li><li><a href="/us/write-for-us">Write</a></li><li><a href="#">Shop</a><ul class="menu--secondary">
+<li class=""><a href="/us/shop">Shop Apress.com</a></li><li class=""><a href="/us/services/booksellers">Booksellers</a></li><li class=""><a href="/us/services/bulk-sales">Bulk Sales</a></li><li class=""><a href="/us/services/corporate-sales">Corporate Sales</a></li><li class=""><a href="/us/services/librarians">Librarians</a></li>
+</ul></li>
+</ul>
+<div class="columns small-12 large-3 large-offset-1 search">
+<form method="get" action="/us/search" accept-charset="UTF-8">
+<div id="search-field">
+<input type="text" autocomplete="off" class="search__term" placeholder="Search" id="query" name="query">
+</div>
+<button type="submit" class="search__submit">Search</button>
+</form>
+</div>
+</nav>
+</div>
+<script type="text/javascript" src="/spcom/min/apress.components.js" defer="defer"></script>
+</header>
+<div id="content">
+
+<div id="id4c" class="">
+
+<div class="layout-full-grid">
+<div class="placement-main">
+
+
+
+
+
+
+<div id="id4f" class="cms-banner cms-banner-size-l cms-banner-color-invert" style="background-image: url(https://resource-cms.springernature.com/springer-cms/rest/v1/content/15977562/data/v5);">
+
+<div class="row">
+
+<div class="cms-banner-text">
+<div class="cms-banner-text-inner">
+<h1>It&#039;s the Apress End of Summer Sale!</h1>
+<div><p>Get 40% off print &amp; eBooks in Web Development, Machine Learning &amp; Python.</p></div>
+<a class="btn btn-primary" href="https://www.apress.com/gp/shop/python-sale?token=python18ep&amp;wt_mc=Internal.Banner.3.EPR870.APRHome_en_python18ep_banner&amp;countryChanged=true">Stock up now</a>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="id50" class="cms-container cms-container-grid cms-highlight-1"><div class="row"><div class="columns small-12 ">
+<div class="cms-grid-collection">
+
+
+
+<div class="cms-collection-list">
+<ul class="row small-up-1 medium-up-3">
+<li class="columns">
+<div id="id51" class="cms-container cms-highlight-0">
+<a class="cms-daily-deal-small cms-daily-deal" href="/us/book/9781484225622?wt_mc=Internal.Banner.3.EPR868.APR_DotD_Teaser" data-mh="mh-id40">
+
+<div class="daily-deal-cover">
+<div>
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-2562-2.jpg" title="Oracle WebLogic Server 12c Administration I Exam 1Z0-133" alt="Oracle WebLogic Server 12c Administration I Exam 1Z0-133"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-2562-2.jpg" title="Oracle WebLogic Server 12c Administration I Exam 1Z0-133" alt="Oracle WebLogic Server 12c Administration I Exam 1Z0-133">
+</div>
+</div>
+<div class="daily-deal-text">
+<h3 class="daily-deal-title">Daily Deal</h3>
+<h4 class="daily-deal-product-title">Oracle WebLogic Server 12c Administration I Exam 1Z0-133</h4>
+<div class="price-container">
+<span class="price">$9.99</span>
+<span class="unreduced-price">$39.99</span>
+</div>
+<div class="daily-deal-cta">Get this deal!</div>
+</div>
+
+</a>
+</div>
+</li><li class="columns">
+<div id="id52" class="cms-container cms-container-close cms-highlight-0">
+<div class="cms-bg-image-teaser cms-bg-image-teaser-with-img" style="background-image: url(//resource-cms.springernature.com/springer-cms/rest/v1/content/10912504/data/v1);" data-mh="mh-id40">
+<a href="http://www.apress.com/gp/apress-access?countryChanged=true&amp;wt_mc=Internal.Banner.3.EPR870.APRshop_en_homepage_banner" style="min-height: 227px;">
+<div class="cms-bg-image-teaser__content">
+<h3>Apress Access</h3>
+<div class="cms-richtext"><p>1 year. 1 price. All yours.<br /></p><p>- Over 3,000 published titles<br />- 200+ upcoming new releases<br />- Only 199 USD per year<br /></p></div>
+<div class="btn btn-primary btn-monster">Subscribe today</div>
+</div>
+</a>
+</div>
+</div>
+</li><li class="columns">
+<div id="id53" class="cms-container cms-container-close cms-highlight-0">
+<div class="cms-bg-image-teaser cms-bg-image-teaser-with-img" style="background-image: url(//resource-cms.springernature.com/springer-cms/rest/v1/content/10912528/data/v1);" data-mh="mh-id40">
+<a href="https://login.apress.com/public/en/login?url=https%3A%2F%2Fwww.apress.com%2Fus&amp;wt_mc=Internal.Banner.3.EPR870.APRshop_en_homepageAAlogin_banner" style="min-height: 227px;">
+<div class="cms-bg-image-teaser__content">
+<h3>Already a subscriber?</h3>
+<div class="cms-richtext"><p>Just log in to enjoy—and don't forget that you can easily access your library across all of your devices!<br /></p></div>
+<div class="btn btn-primary btn-monster">Log in to Apress Access</div>
+</div>
+</a>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div></div></div>
+
+<div id="id41" class="cms-container cms-container-overflow cms-highlight-0"><div class="row"><div class="columns small-12 ">
+<div class="cms-recommendation-long">
+<div class="headline-and-link">
+
+<div class="section-header">
+<h2 id="c15808668">
+Highlights
+</h2>
+
+</div>
+
+
+</div>
+
+<ul class="row small-up-2 medium-up-3 large-up-5 products">
+<li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-3 cms-col-mod-4 cms-col-mod-5 cms-col-mod-6 cms-col-mod-7 cms-col-mod-8 columns">
+
+<div class="product-graphic" data-mh="id41">
+<a href="/us/book/9781484234778#otherversion=9781484234778" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 1&#039;}});" data-baynote-pid="978-1-4842-3477-8">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3477-8.jpg" title="Beginning DAX with Power BI" alt="Beginning DAX with Power BI"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3477-8.jpg" title="Beginning DAX with Power BI" alt="Beginning DAX with Power BI">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484234778#otherversion=9781484234778" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 1&#039;}});" data-baynote-pid="978-1-4842-3477-8">Beginning DAX with Power BI</a></h3>
+<p>Seamark, P.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$29.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item columns">
+
+<div class="product-graphic" data-mh="id41">
+<a href="/us/book/9781484234532#otherversion=9781484234532" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 2&#039;}});" data-baynote-pid="978-1-4842-3453-2">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3453-2.jpg" title="Introduction to Deep Learning Business Applications for Developers" alt="Introduction to Deep Learning Business Applications for Developers"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3453-2.jpg" title="Introduction to Deep Learning Business Applications for Developers" alt="Introduction to Deep Learning Business Applications for Developers">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484234532#otherversion=9781484234532" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 2&#039;}});" data-baynote-pid="978-1-4842-3453-2">Introduction to Deep Learning Business Applications for Developers</a></h3>
+<p>Vieira, A. (et al.)
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$19.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 columns">
+
+<div class="product-graphic" data-mh="id41">
+<a href="/us/book/9781484236918#otherversion=9781484236918" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 3&#039;}});" data-baynote-pid="978-1-4842-3691-8">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3691-8.jpg" title="How to Kill the Scrum Monster" alt="How to Kill the Scrum Monster"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3691-8.jpg" title="How to Kill the Scrum Monster" alt="How to Kill the Scrum Monster">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484236918#otherversion=9781484236918" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 3&#039;}});" data-baynote-pid="978-1-4842-3691-8">How to Kill the Scrum Monster</a></h3>
+<p>Bibik, I.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$9.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-3 columns">
+
+<div class="product-graphic" data-mh="id41">
+<a href="/us/book/9781484235829#otherversion=9781484235829" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 4&#039;}});" data-baynote-pid="978-1-4842-3582-9">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3582-9.jpg" title="Practical Web Scraping for Data Science" alt="Practical Web Scraping for Data Science"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3582-9.jpg" title="Practical Web Scraping for Data Science" alt="Practical Web Scraping for Data Science">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484235829#otherversion=9781484235829" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 4&#039;}});" data-baynote-pid="978-1-4842-3582-9">Practical Web Scraping for Data Science</a></h3>
+<p>vanden Broucke, S. (et al.)
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$29.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-4 columns">
+
+<div class="product-graphic" data-mh="id41">
+<a href="/us/book/9781484234358#otherversion=9781484234358" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 5&#039;}});" data-baynote-pid="978-1-4842-3435-8">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3435-8.jpg" title="Pro Entity Framework Core 2 for ASP.NET Core MVC" alt="Pro Entity Framework Core 2 for ASP.NET Core MVC"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3435-8.jpg" title="Pro Entity Framework Core 2 for ASP.NET Core MVC" alt="Pro Entity Framework Core 2 for ASP.NET Core MVC">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484234358#otherversion=9781484234358" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 5&#039;}});" data-baynote-pid="978-1-4842-3435-8">Pro Entity Framework Core 2 for ASP.NET Core MVC</a></h3>
+<p>Freeman, A.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$44.99</span>
+
+</span>
+
+</div>
+
+</li>
+</ul>
+
+</div>
+</div></div></div>
+
+<div id="id54" class="cms-container cms-highlight-1"><div class="row"><div class="columns small-12 ">
+<div class="cms-floating-links">
+
+<div class="section-header">
+<h2 id="c10298614">
+Browse our categories
+</h2>
+
+</div>
+
+
+<div class="row">
+<div class="columns small-12 medium-12">
+<ul>
+<li>
+
+<a href="/us/apple"><span class="">Apple &amp; iOS</span><span></span></a>
+
+</li><li>
+
+<a href="/us/big-data"><span class="">Big Data &amp; Analytics</span><span></span></a>
+
+</li><li>
+
+<a href="/us/business"><span class="">Business</span><span></span></a>
+
+</li><li>
+
+<a href="/us/databases"><span class="">Databases</span><span></span></a>
+
+</li><li>
+
+<a href="/us/enterprise-software"><span class="">Enterprise Software</span><span></span></a>
+
+</li><li>
+
+<a href="/us/game-development"><span class="">Game Development</span><span></span></a>
+
+</li><li>
+
+<a href="/us/graphics"><span class="">Graphics</span><span></span></a>
+
+</li><li>
+
+<a href="/us/hardware-maker"><span class="">Hardware &amp; Maker</span><span></span></a>
+
+</li><li>
+
+<a href="/us/java"><span class="">Java</span><span></span></a>
+
+</li><li>
+
+<a href="/us/machine-learning"><span class="">Machine Learning</span><span></span></a>
+
+</li><li>
+
+<a href="/us/microsoft"><span class="">Microsoft &amp; .NET</span><span></span></a>
+
+</li><li>
+
+<a href="/us/mobile"><span class="">Mobile</span><span></span></a>
+
+</li><li>
+
+<a href="/us/networking"><span class="">Networking &amp; Cloud</span><span></span></a>
+
+</li><li>
+
+<a href="/us/open-source"><span class="">Open Source</span><span></span></a>
+
+</li><li>
+
+<a href="/us/programming"><span class="">Programming</span><span></span></a>
+
+</li><li>
+
+<a href="/us/python"><span class="">Python</span><span></span></a>
+
+</li><li>
+
+<a href="/us/security"><span class="">Security</span><span></span></a>
+
+</li><li>
+
+<a href="/us/web-development"><span class="">Web Development</span><span></span></a>
+
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div></div>
+
+<div id="id42" class="cms-container cms-container-overflow cms-highlight-0"><div class="row"><div class="columns small-12 ">
+<div class="cms-recommendation-long">
+<div class="headline-and-link">
+
+<div class="section-header">
+<h2 id="c15764798">
+New Releases 
+</h2>
+
+</div>
+
+
+<span class="related"><a href="http://www.apress.com/gp/product-search?countryChanged=true&amp;facet-pdate=pdate__sixmonths&amp;query=">see all</a></span>
+
+</div>
+
+<ul class="row small-up-2 medium-up-3 large-up-5 products">
+<li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-3 cms-col-mod-4 cms-col-mod-5 cms-col-mod-6 cms-col-mod-7 cms-col-mod-8 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484236826#otherversion=9781484236826" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 1&#039;}});" data-baynote-pid="978-1-4842-3682-6">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3682-6.jpg" title="Cosmos DB for MongoDB Developers" alt="Cosmos DB for MongoDB Developers"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3682-6.jpg" title="Cosmos DB for MongoDB Developers" alt="Cosmos DB for MongoDB Developers">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484236826#otherversion=9781484236826" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 1&#039;}});" data-baynote-pid="978-1-4842-3682-6">Cosmos DB for MongoDB Developers</a></h3>
+<p>Sharma, M.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$24.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484238356#otherversion=9781484238356" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 2&#039;}});" data-baynote-pid="978-1-4842-3835-6">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3835-6.jpg" title="Build, Run, and Sell Your Apple Consulting Practice" alt="Build, Run, and Sell Your Apple Consulting Practice"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3835-6.jpg" title="Build, Run, and Sell Your Apple Consulting Practice" alt="Build, Run, and Sell Your Apple Consulting Practice">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484238356#otherversion=9781484238356" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 2&#039;}});" data-baynote-pid="978-1-4842-3835-6">Build, Run, and Sell Your Apple Consulting Practice</a></h3>
+<p>Edge, C.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$19.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484236123#otherversion=9781484236123" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 3&#039;}});" data-baynote-pid="978-1-4842-3612-3">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3612-3.jpg" title="Enterprise DevOps Framework" alt="Enterprise DevOps Framework"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3612-3.jpg" title="Enterprise DevOps Framework" alt="Enterprise DevOps Framework">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484236123#otherversion=9781484236123" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 3&#039;}});" data-baynote-pid="978-1-4842-3612-3">Enterprise DevOps Framework</a></h3>
+<p>Farooqui, S.M.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$19.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-3 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484235256#otherversion=9781484235256" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 4&#039;}});" data-baynote-pid="978-1-4842-3525-6">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3525-6.jpg" title="Applied Analytics through Case Studies Using SAS and R" alt="Applied Analytics through Case Studies Using SAS and R"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3525-6.jpg" title="Applied Analytics through Case Studies Using SAS and R" alt="Applied Analytics through Case Studies Using SAS and R">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484235256#otherversion=9781484235256" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 4&#039;}});" data-baynote-pid="978-1-4842-3525-6">Applied Analytics through Case Studies Using SAS and R</a></h3>
+<p>Gupta, D.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$29.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-4 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484237304#otherversion=9781484237304" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 5&#039;}});" data-baynote-pid="978-1-4842-3730-4">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3730-4.jpg" title="The Linux Philosophy for SysAdmins" alt="The Linux Philosophy for SysAdmins"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3730-4.jpg" title="The Linux Philosophy for SysAdmins" alt="The Linux Philosophy for SysAdmins">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484237304#otherversion=9781484237304" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 5&#039;}});" data-baynote-pid="978-1-4842-3730-4">The Linux Philosophy for SysAdmins</a></h3>
+<p>Both, D.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$34.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-5 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484236949#otherversion=9781484236949" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 6&#039;}});" data-baynote-pid="978-1-4842-3694-9">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3694-9.jpg" title="MySQL Connector/Python Revealed" alt="MySQL Connector/Python Revealed"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3694-9.jpg" title="MySQL Connector/Python Revealed" alt="MySQL Connector/Python Revealed">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484236949#otherversion=9781484236949" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 6&#039;}});" data-baynote-pid="978-1-4842-3694-9">MySQL Connector/Python Revealed</a></h3>
+<p>Krogh, J.W.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$24.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-3 cms-col-mod-6 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484237571#otherversion=9781484237571" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 7&#039;}});" data-baynote-pid="978-1-4842-3757-1">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3757-1.jpg" title="Pro iOS Security and Forensics" alt="Pro iOS Security and Forensics"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3757-1.jpg" title="Pro iOS Security and Forensics" alt="Pro iOS Security and Forensics">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484237571#otherversion=9781484237571" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 7&#039;}});" data-baynote-pid="978-1-4842-3757-1">Pro iOS Security and Forensics</a></h3>
+<p>Butow, E.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$19.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-7 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484237847#otherversion=9781484237847" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 8&#039;}});" data-baynote-pid="978-1-4842-3784-7">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3784-7.jpg" title="Practical Docker with Python" alt="Practical Docker with Python"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3784-7.jpg" title="Practical Docker with Python" alt="Practical Docker with Python">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484237847#otherversion=9781484237847" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 8&#039;}});" data-baynote-pid="978-1-4842-3784-7">Practical Docker with Python</a></h3>
+<p>Bhat, S.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$24.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-4 cms-col-mod-8 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484210734#otherversion=9781484210734" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 9&#039;}});" data-baynote-pid="978-1-4842-1073-4">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-1073-4.jpg" title="Scalability Patterns" alt="Scalability Patterns"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-1073-4.jpg" title="Scalability Patterns" alt="Scalability Patterns">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484210734#otherversion=9781484210734" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 9&#039;}});" data-baynote-pid="978-1-4842-1073-4">Scalability Patterns</a></h3>
+<p>Dhall, C.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$19.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-3 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484237632#otherversion=9781484237632" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 10&#039;}});" data-baynote-pid="978-1-4842-3763-2">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3763-2.jpg" title="Practical Microsoft Azure IaaS" alt="Practical Microsoft Azure IaaS"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3763-2.jpg" title="Practical Microsoft Azure IaaS" alt="Practical Microsoft Azure IaaS">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484237632#otherversion=9781484237632" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 10&#039;}});" data-baynote-pid="978-1-4842-3763-2">Practical Microsoft Azure IaaS</a></h3>
+<p>A.K., S.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$29.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-5 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484238028#otherversion=9781484238028" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 11&#039;}});" data-baynote-pid="978-1-4842-3802-8">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3802-8.jpg" title="Personal Finance with Python" alt="Personal Finance with Python"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3802-8.jpg" title="Personal Finance with Python" alt="Personal Finance with Python">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484238028#otherversion=9781484238028" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 11&#039;}});" data-baynote-pid="978-1-4842-3802-8">Personal Finance with Python</a></h3>
+<p>Humber, M.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$19.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484237694#otherversion=9781484237694" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 12&#039;}});" data-baynote-pid="978-1-4842-3769-4">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3769-4.jpg" title="Learn Raspberry Pi Programming with Python" alt="Learn Raspberry Pi Programming with Python"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3769-4.jpg" title="Learn Raspberry Pi Programming with Python" alt="Learn Raspberry Pi Programming with Python">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484237694#otherversion=9781484237694" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 12&#039;}});" data-baynote-pid="978-1-4842-3769-4">Learn Raspberry Pi Programming with Python</a></h3>
+<p>Donat, W.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$19.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-3 cms-col-mod-4 cms-col-mod-6 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484237151#otherversion=9781484237151" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 13&#039;}});" data-baynote-pid="978-1-4842-3715-1">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3715-1.jpg" title="REST API Development with Node.js " alt="REST API Development with Node.js "></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3715-1.jpg" title="REST API Development with Node.js " alt="REST API Development with Node.js ">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484237151#otherversion=9781484237151" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 13&#039;}});" data-baynote-pid="978-1-4842-3715-1">REST API Development with Node.js </a></h3>
+<p>Doglio, F.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$29.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484235409#otherversion=9781484235409" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 14&#039;}});" data-baynote-pid="978-1-4842-3540-9">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3540-9.jpg" title="Practical Bot Development" alt="Practical Bot Development"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3540-9.jpg" title="Practical Bot Development" alt="Practical Bot Development">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484235409#otherversion=9781484235409" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 14&#039;}});" data-baynote-pid="978-1-4842-3540-9">Practical Bot Development</a></h3>
+<p>Rozga, S.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$39.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-7 columns">
+
+<div class="product-graphic" data-mh="id42">
+<a href="/us/book/9781484236611#otherversion=9781484236611" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 15&#039;}});" data-baynote-pid="978-1-4842-3661-1">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3661-1.jpg" title="The Kitty Hawk Venture" alt="The Kitty Hawk Venture"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3661-1.jpg" title="The Kitty Hawk Venture" alt="The Kitty Hawk Venture">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484236611#otherversion=9781484236611" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 15&#039;}});" data-baynote-pid="978-1-4842-3661-1">The Kitty Hawk Venture</a></h3>
+<p>Scheaffer, J. (et al.)
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook
+</p>
+
+<span class="from">  </span>
+<span class="price-container">
+<span class="price">$19.99</span>
+
+</span>
+
+</div>
+
+</li>
+</ul>
+
+</div>
+</div></div></div>
+
+<div id="id67" class="cms-container cms-highlight-1"><div class="row"><div class="columns small-12 ">
+<div class="cms-columns-row">
+<div class="row">
+<div class="columns  small-12 medium-6">
+<div id="id68" class="cms-container cms-container-close cms-highlight-0">
+<div class="cms-bg-image-teaser cms-bg-image-teaser-with-img" style="background-image: url(//resource-cms.springernature.com/springer-cms/rest/v1/content/10912504/data/v1);" data-mh="mh-id43">
+<a href="/us/services/source-code" style="min-height: 227px;">
+<div class="cms-bg-image-teaser__content">
+<h3>Apress source code now available on GitHub</h3>
+
+<div class="btn btn-primary btn-monster">Access Source Code</div>
+</div>
+</a>
+</div>
+</div>
+</div><div class="columns  small-12 medium-6">
+<div id="id69" class="cms-container cms-container-close cms-highlight-0">
+<div class="cms-bg-image-teaser cms-bg-image-teaser-with-img" style="background-image: url(//resource-cms.springernature.com/springer-cms/rest/v1/content/10734958/data/v3);" data-mh="mh-id43">
+<a href="http://www.apress.com/9781484211571" style="min-height: 167px;">
+<div class="cms-bg-image-teaser__content">
+<h3>Will your next doctor be a human being—or a machine? Will you have a choice?</h3>
+
+<div class="btn btn-primary btn-monster">Learn more</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>
+
+<div id="id6a" class="cms-container cms-container-grid cms-highlight-0"><div class="row"><div class="columns small-12 ">
+<div class="cms-grid-collection">
+
+
+
+<div class="cms-collection-list">
+<ul class="row small-up-1  medium-up-2">
+<li class="columns">
+<div id="id6b" class="cms-container cms-highlight-0">
+<div class="cms-common cms-categorized-list news-list">
+
+
+<h1 id="c10309058">
+Blog Posts
+</h1>
+
+
+
+
+<span class="related"><a href="/us/blog/all-blog-posts">see all</a></span>
+
+<ul class="cms-link-list-transparent">
+<li class="cms-article">
+<div class="meta">
+<p class="creation-date">8/2/18</p>
+
+</div>
+<h3><a href="/us/blog/all-blog-posts/local-variable-type-inference-in-java-se-10/15991244">Local Variable Type Inference in Java SE 10</a></h3>
+<a class="abstract" href="/us/blog/all-blog-posts/local-variable-type-inference-in-java-se-10/15991244"><p>What is Type Inference? Suppose you want to store a person ID, say, 10, in a variable.&nbsp;&nbsp;You would declare the variable like&nbsp;...</p></a>
+</li><li class="cms-article">
+<div class="meta">
+<p class="creation-date">7/31/18</p>
+
+</div>
+<h3><a href="/us/blog/all-blog-posts/chat-bot-and-voice-technologies-are-just-warming-up/15990916">Chat Bot and Voice Technologies are Just Warming Up</a></h3>
+<a class="abstract" href="/us/blog/all-blog-posts/chat-bot-and-voice-technologies-are-just-warming-up/15990916"><p>I have spent the last two and a half years of my career focusing on a technology that, back then, was easily dismissible. So much that others in at my work doubted we could build a successful business around it&nbsp;...<br /></p></a>
+</li>
+</ul>
+</div>
+</div>
+</li><li class="columns">
+<div id="id6c" class="cms-container cms-container-grid cms-highlight-0">
+<div class="cms-grid-collection">
+
+
+<h2 id="c10745600">
+Upcoming events
+</h2>
+
+
+
+
+<span class="related"><a href="/us/services/events">see all</a></span>
+
+
+<div class="cms-collection-list">
+<ul class="row small-up-1">
+<li class="columns">
+<div id="id6d" class="">
+
+<a class="cms-teaser-text" href="mailto:jonathangennick@apress.com">
+
+<div class="cms-teaser-box cms-teaser-box-with-icon" data-mh="mh-id44">
+<div class="article-meta">
+
+
+</div>
+<div class="cms-font-icon">q</div>
+<h3>August 26-29, 2018 | SPTechCon | Boston, MA</h3>
+<p>Exhibiting</p><p>Contact attending editor</p>
+</div>
+</a>
+
+</div>
+</li><li class="columns">
+<div id="id6e" class="">
+
+<a class="cms-teaser-text" href="mailto:shivangi.ramachandran@apress.com">
+
+<div class="cms-teaser-box cms-teaser-box-with-icon" data-mh="mh-id44">
+<div class="article-meta">
+
+
+</div>
+<div class="cms-font-icon">q</div>
+<h3>September 5-7, 2018 | Disrupt SF 2018  | San Francisco, CA</h3>
+<p>Contact attending editor</p>
+</div>
+</a>
+
+</div>
+</li><li class="columns">
+<div id="id6f" class="">
+
+<a class="cms-teaser-text" href="mailto:louisecorrigan@apress.com">
+
+<div class="cms-teaser-box cms-teaser-box-with-icon" data-mh="mh-id44">
+<div class="article-meta">
+
+
+</div>
+<div class="cms-font-icon">q</div>
+<h3>September 9-11, 2018 | Write the Docs | Prague, Czech Republic</h3>
+<p>Contact attending editor</p>
+</div>
+</a>
+
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div></div></div>
+
+<div id="id70" class="cms-container cms-highlight-1"><div class="row"><div class="columns small-12 ">
+<div class="cms-columns-row">
+<div class="row">
+<div class="columns">
+<div id="id45" class="cms-container cms-container-overflow cms-highlight-0">
+<div class="cms-recommendation-long">
+<div class="headline-and-link">
+
+<div class="section-header">
+<h2 id="c15764794">
+Bestsellers
+</h2>
+
+</div>
+
+
+</div>
+
+<ul class="row small-up-2 medium-up-3 large-up-5 products">
+<li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-3 cms-col-mod-4 cms-col-mod-5 cms-col-mod-6 cms-col-mod-7 cms-col-mod-8 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484234341" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 1&#039;}});" data-baynote-pid="978-1-4842-3434-1">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3434-1.jpg" title="Pro Entity Framework Core 2 for ASP.NET Core MVC" alt="Pro Entity Framework Core 2 for ASP.NET Core MVC"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3434-1.jpg" title="Pro Entity Framework Core 2 for ASP.NET Core MVC" alt="Pro Entity Framework Core 2 for ASP.NET Core MVC">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484234341" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 1&#039;}});" data-baynote-pid="978-1-4842-3434-1">Pro Entity Framework Core 2 for ASP.NET Core MVC</a></h3>
+<p>Freeman, A.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$44.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484226032" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 2&#039;}});" data-baynote-pid="978-1-4842-2603-2">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-2603-2.jpg" title="Blockchain Basics" alt="Blockchain Basics"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-2603-2.jpg" title="Blockchain Basics" alt="Blockchain Basics">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484226032" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 2&#039;}});" data-baynote-pid="978-1-4842-2603-2">Blockchain Basics</a></h3>
+<p>Drescher, D.
+(2017)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$19.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484230176" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 3&#039;}});" data-baynote-pid="978-1-4842-3017-6">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3017-6.jpg" title="Pro C# 7" alt="Pro C# 7"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3017-6.jpg" title="Pro C# 7" alt="Pro C# 7">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484230176" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 3&#039;}});" data-baynote-pid="978-1-4842-3017-6">Pro C# 7</a></h3>
+<p>Troelsen, A. (et al.)
+(2017)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$44.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-3 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484233801" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 4&#039;}});" data-baynote-pid="978-1-4842-3380-1">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3380-1.jpg" title="Pro iPhone Development with Swift 4" alt="Pro iPhone Development with Swift 4"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3380-1.jpg" title="Pro iPhone Development with Swift 4" alt="Pro iPhone Development with Swift 4">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484233801" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 4&#039;}});" data-baynote-pid="978-1-4842-3380-1">Pro iPhone Development with Swift 4</a></h3>
+<p>Maskrey, M.K. (et al.)
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$29.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-4 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484233474" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 5&#039;}});" data-baynote-pid="978-1-4842-3347-4">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3347-4.jpg" title="Java Language Features" alt="Java Language Features"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3347-4.jpg" title="Java Language Features" alt="Java Language Features">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484233474" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 5&#039;}});" data-baynote-pid="978-1-4842-3347-4">Java Language Features</a></h3>
+<p>Sharan, K.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$39.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-5 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484223512" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 6&#039;}});" data-baynote-pid="978-1-4842-2351-2">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-2351-2.jpg" title="Pro Tableau" alt="Pro Tableau"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-2351-2.jpg" title="Pro Tableau" alt="Pro Tableau">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484223512" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 6&#039;}});" data-baynote-pid="978-1-4842-2351-2">Pro Tableau</a></h3>
+<p>Acharya, S. (et al.)
+(2017)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$44.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-3 cms-col-mod-6 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484228890" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 7&#039;}});" data-baynote-pid="978-1-4842-2889-0">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-2889-0.jpg" title="The Cool Stuff in Premiere Pro" alt="The Cool Stuff in Premiere Pro"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-2889-0.jpg" title="The Cool Stuff in Premiere Pro" alt="The Cool Stuff in Premiere Pro">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484228890" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 7&#039;}});" data-baynote-pid="978-1-4842-2889-0">The Cool Stuff in Premiere Pro</a></h3>
+<p>Leirpoll, J. (et al.)
+(2017)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$54.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-7 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484228074" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 8&#039;}});" data-baynote-pid="978-1-4842-2807-4">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-2807-4.jpg" title="Pro Spring 5" alt="Pro Spring 5"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-2807-4.jpg" title="Pro Spring 5" alt="Pro Spring 5">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484228074" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 8&#039;}});" data-baynote-pid="978-1-4842-2807-4">Pro Spring 5</a></h3>
+<p>Cosmina, I. (et al.)
+(2017)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$39.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-4 cms-col-mod-8 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484234228" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 9&#039;}});" data-baynote-pid="978-1-4842-3422-8">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3422-8.jpg" title="Practical Python AI Projects" alt="Practical Python AI Projects"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3422-8.jpg" title="Practical Python AI Projects" alt="Practical Python AI Projects">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484234228" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 9&#039;}});" data-baynote-pid="978-1-4842-3422-8">Practical Python AI Projects</a></h3>
+<p>Kruk, S.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$19.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-3 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484232576" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 10&#039;}});" data-baynote-pid="978-1-4842-3257-6">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3257-6.jpg" title="Enterprise Cybersecurity Study Guide" alt="Enterprise Cybersecurity Study Guide"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3257-6.jpg" title="Enterprise Cybersecurity Study Guide" alt="Enterprise Cybersecurity Study Guide">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484232576" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 10&#039;}});" data-baynote-pid="978-1-4842-3257-6">Enterprise Cybersecurity Study Guide</a></h3>
+<p>Donaldson, S.E. (et al.)
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$39.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-5 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484231494" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 11&#039;}});" data-baynote-pid="978-1-4842-3149-4">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3149-4.jpg" title="Pro ASP.NET Core MVC 2" alt="Pro ASP.NET Core MVC 2"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3149-4.jpg" title="Pro ASP.NET Core MVC 2" alt="Pro ASP.NET Core MVC 2">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484231494" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 11&#039;}});" data-baynote-pid="978-1-4842-3149-4">Pro ASP.NET Core MVC 2</a></h3>
+<p>Freeman, A.
+(2017)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$44.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484220078" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 12&#039;}});" data-baynote-pid="978-1-4842-2007-8">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-2007-8.jpg" title="Pro Linux System Administration" alt="Pro Linux System Administration"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-2007-8.jpg" title="Pro Linux System Administration" alt="Pro Linux System Administration">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484220078" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 12&#039;}});" data-baynote-pid="978-1-4842-2007-8">Pro Linux System Administration</a></h3>
+<p>Matotek, D. (et al.)
+(2017)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$44.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-3 cms-col-mod-4 cms-col-mod-6 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484222430" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 13&#039;}});" data-baynote-pid="978-1-4842-2243-0">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-2243-0.jpg" title="SharePoint 2016 User&#039;s Guide" alt="SharePoint 2016 User&#039;s Guide"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-2243-0.jpg" title="SharePoint 2016 User&#039;s Guide" alt="SharePoint 2016 User&#039;s Guide">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484222430" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 13&#039;}});" data-baynote-pid="978-1-4842-2243-0">SharePoint 2016 User&#039;s Guide</a></h3>
+<p>Smith, T.
+(2016)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$39.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484223758" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 14&#039;}});" data-baynote-pid="978-1-4842-2375-8">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-2375-8.jpg" title="Beginning Adobe Animate CC" alt="Beginning Adobe Animate CC"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-2375-8.jpg" title="Beginning Adobe Animate CC" alt="Beginning Adobe Animate CC">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484223758" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 14&#039;}});" data-baynote-pid="978-1-4842-2375-8">Beginning Adobe Animate CC</a></h3>
+<p>GREEN, T. (et al.)
+(2017)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$39.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-7 columns">
+
+<div class="product-graphic" data-mh="id45">
+<a href="/us/book/9781484226797" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 15&#039;}});" data-baynote-pid="978-1-4842-2679-7">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-2679-7.jpg" title="Practical Python Design Patterns" alt="Practical Python Design Patterns"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-2679-7.jpg" title="Practical Python Design Patterns" alt="Practical Python Design Patterns">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484226797" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 15&#039;}});" data-baynote-pid="978-1-4842-2679-7">Practical Python Design Patterns</a></h3>
+<p>Badenhorst, W.
+(2017)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$29.99</span>
+
+</span>
+
+</div>
+
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>
+
+<div id="id71" class="cms-container cms-container-grid cms-highlight-0"><div class="row"><div class="columns small-12 ">
+<div class="cms-grid-collection">
+
+
+
+<div class="cms-collection-list">
+<ul class="row small-up-1  medium-up-2">
+<li class="columns">
+<div id="id72" class="cms-container cms-highlight-0">
+<div class="cms-common cms-person-list">
+
+
+<h1 id="c11108524">
+Featured Author
+</h1>
+
+
+
+<ul>
+
+<li class="cms-person" id="id73">
+
+<div class="cms-person">
+<div class="overview cms-person-not-linked cms-person-with-details">
+<img class="avatar" id="id74" src="//resource-cms.springernature.com/springer-cms/rest/v1/img/15458980/v5/spcom-apress-person-medium" title="Guay Paz_bw" alt="Guay Paz_bw">
+<div class="description">
+<h3>José Rolando Guay Paz</h3>
+<p class="description--paragraph">
+
+
+</p>
+<p class="description--paragraph">
+
+
+
+
+<a href="https://www.twitter.com/jrguay">https://www.twitter.com/jrguay</a>
+
+</p>
+</div>
+</div>
+<div class="person-detail"><p>José Rolando Guay Paz&nbsp;is a professional developer with more than 20 years of experience in implementing database-backed applications. He was among the first in Central America to build commercial applications using Microsoft .NET. He has deep experience in Oracle Database and SQL Server, and he is an MCPD in ASP.NET 3.5/4.0, an MCSD in web applications, and an MCTS in SQL Server 2012/2014. José's&nbsp;native language is Spanish; he is fluent in English; and has learned some French. He holds a bachelor's degree in Computer Science, and a master’s degree in Finance.</p></div>
+</div>
+
+</li>
+
+</ul>
+</div>
+</div>
+</li><li class="columns">
+<div id="id75" class="cms-container cms-highlight-0">
+<div class="cms-columns-row">
+<div class="row">
+<div class="columns">
+<div id="id46" class="cms-container cms-container-overflow cms-highlight-0">
+<div class="cms-recommendation-long">
+<div class="headline-and-link">
+
+<div class="section-header">
+<h2 id="c11108528">
+Featured Titles
+</h2>
+
+</div>
+
+
+</div>
+
+<ul class="row small-up-1 medium-up-2 products">
+<li class="product-teaser cms-col-item cms-col-mod-2 cms-col-mod-3 cms-col-mod-4 cms-col-mod-5 cms-col-mod-6 cms-col-mod-7 cms-col-mod-8 columns">
+
+<div class="product-graphic" data-mh="id46">
+<a href="/us/book/9781484233504" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 1&#039;}});" data-baynote-pid="978-1-4842-3350-4">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4842-3350-4.jpg" title="Microsoft Azure Cosmos DB Revealed" alt="Microsoft Azure Cosmos DB Revealed"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4842-3350-4.jpg" title="Microsoft Azure Cosmos DB Revealed" alt="Microsoft Azure Cosmos DB Revealed">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781484233504" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 1&#039;}});" data-baynote-pid="978-1-4842-3350-4">Microsoft Azure Cosmos DB Revealed</a></h3>
+<p>Guay Paz, J.R.
+(2018)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$19.99</span>
+
+</span>
+
+</div>
+
+</li><li class="product-teaser cms-col-item columns">
+
+<div class="product-graphic" data-mh="id46">
+<a href="/us/book/9781430257523" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 2&#039;}});" data-baynote-pid="978-1-4302-5752-3">
+
+<noscript><img src="//images.springer.com/sgw/books/medium/978-1-4302-5752-3.jpg" title="Beginning ASP.NET MVC 4" alt="Beginning ASP.NET MVC 4"></noscript>
+<img class="lazy" src="//images.springer.com/_default" data-original="//images.springer.com/sgw/books/medium/978-1-4302-5752-3.jpg" title="Beginning ASP.NET MVC 4" alt="Beginning ASP.NET MVC 4">
+
+</a>
+</div>
+<div class="product-information">
+<h3><a href="/us/book/9781430257523" onmousedown="wt.sendinfo({linkId: &#039;recommendation&#039;, customClickParameter : { 2 : &#039;shoppage.recommendedproducts - 2&#039;}});" data-baynote-pid="978-1-4302-5752-3">Beginning ASP.NET MVC 4</a></h3>
+<p>Guay Paz, J.R.
+(2013)</p>
+
+
+<p class="format">
+<strong>Format:</strong>
+eBook, Softcover
+</p>
+
+<span class="from"> from </span>
+<span class="price-container">
+<span class="price">$34.99</span>
+
+</span>
+
+</div>
+
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div></div></div>
+
+<div id="id76" class="cms-banner cms-banner-size-xl cms-banner-color-invert" style="background-image: url(https://resource-cms.springernature.com/springer-cms/rest/v1/content/10785358/data/v2);">
+
+<div class="row">
+
+<div class="cms-banner-text">
+<div class="cms-banner-text-inner">
+<h1>Publishing with Apress</h1>
+<div><p>We build strong partnerships with our authors. Apress offers authors the chance to work with a publisher with the marketing, distribution, and commercial weight of a major player while maintaining the spirit of an independent publishing house.</p><p><br /></p><p><strong><a class="inline-content" data-id="10232712" data-type="CMChannel" href="/us/write-for-us">Submit a Proposal</a></strong></p></div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="id77" class="cms-container cms-container-grid cms-highlight-1"><div class="row"><div class="columns small-12 ">
+<div class="cms-grid-collection">
+
+
+
+<div class="cms-collection-list">
+<ul class="row small-up-1  medium-up-2">
+<li class="columns">
+<div id="id78" class="cms-container cms-container-close cms-highlight-0">
+<div class="cms-bg-image-teaser cms-bg-image-teaser-with-img" style="background-image: url(//resource-cms.springernature.com/springer-cms/rest/v1/content/10787480/data/v1);" data-mh="mh-id47">
+<a href="/us/apress-open/apressopen-titles" style="min-height: 227px;">
+<div class="cms-bg-image-teaser__content">
+<h3>Free high-quality content for developers worldwide</h3>
+<div class="cms-richtext"><p>Download our open source content</p></div>
+<div class="btn btn-primary btn-monster">Browse free ApressOpen titles</div>
+</div>
+</a>
+</div>
+</div>
+</li><li class="columns">
+<div id="id79" class="cms-highlight-0">
+<div class="cms-widget-subscription">
+
+
+<h2 id="c10842006">
+Subscribe to our newsletter
+</h2>
+
+
+
+<form id="id4a" method="post" action="./us?1-1.IFormSubmitListener-body-content-rows-0-columns-0-area-components-0-item-components-10-item-grid-grid_body-row-column-1-item-grid-grid_body-container-form"><div style="width:0px;height:0px;position:absolute;left:-100px;top:-100px;overflow:hidden"><input type="hidden" name="id4a_hf_0" id="id4a_hf_0" /></div>
+<div class="cms-richtext"><p>Stay up to date on daily deals, discount promotions, events &amp; new releases. Save up to 90% on eBook purchases.</p></div>
+<div class="form-section">
+<div class="form-row">
+<label for="id48">Email Address*</label>
+<input type="text" value="" name="email" id="id48" required="required">
+<label id="id7a" style="display:none"></label>
+</div>
+</div>
+<button type="submit" class="btn btn-monster btn-primary" value="Submit" name=":submit" id="id4b">Sign up now</button>
+</form>
+<div class="cms-richtext">
+
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div></div></div>
+
+<div id="id7b" class="cms-container cms-container-grid cms-highlight-0"><div class="row"><div class="columns small-12 ">
+<div class="cms-grid-collection">
+
+
+<h2 id="c10776956">
+Why Shop on Apress.com?
+</h2>
+
+
+
+
+<div class="cms-richtext"><p class="intro--paragraph"><img alt="" class="float--left" title="" src="//resource-cms.springernature.com/springer-cms/rest/v1/content/6660820/data/v3" />The books in our Apress Shop come with free worldwide shipping for print copies, and our eBooks can be read on any device.</p></div>
+<div class="cms-collection-list">
+<ul class="row small-up-1 medium-up-3">
+<li class="columns">
+<div id="id7c" class="">
+
+<div class="cms-teaser-text">
+
+<div class="cms-teaser-box cms-teaser-box-with-icon cms-teaser-box-titled-icon" data-mh="mh-id49">
+<div class="article-meta">
+
+
+</div>
+<div class="cms-font-icon">&lt;</div>
+<h3>Over 3,000 titles in programming &amp; IT</h3>
+
+</div>
+</div>
+
+</div>
+</li><li class="columns">
+<div id="id7d" class="">
+
+<div class="cms-teaser-text">
+
+<div class="cms-teaser-box cms-teaser-box-with-icon cms-teaser-box-titled-icon" data-mh="mh-id49">
+<div class="article-meta">
+
+
+</div>
+<div class="cms-font-icon">w</div>
+<h3>Free shipping for print books worldwide</h3>
+
+</div>
+</div>
+
+</div>
+</li><li class="columns">
+<div id="id7e" class="">
+
+<div class="cms-teaser-text">
+
+<div class="cms-teaser-box cms-teaser-box-with-icon cms-teaser-box-titled-icon" data-mh="mh-id49">
+<div class="article-meta">
+
+
+</div>
+<div class="cms-font-icon">m</div>
+<h3>eBooks can be read on all devices</h3>
+
+</div>
+</div>
+
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div></div></div>
+
+
+
+
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+<footer>
+<div class="footer__links">
+<div class="row row-narrow">
+<div class="column small-12 large-6">
+<div class="row">
+<div class="column small-12 medium-8" id="column0">
+<a class="footer__links__headline flap--mobile">Apress A-Z</a>
+<div>
+<div class="footer__links__column__links row small-up-2">
+<div class="columns">
+<ul>
+<li class=""><a href="/us/apple">Apple &amp; iOS</a></li><li class=""><a href="/us">ASP.NET</a></li><li class=""><a href="/us/big-data">Big Data &amp; Analytics</a></li><li class=""><a href="/us/business">Business</a></li><li class=""><a href="/us/databases">Databases</a></li><li class=""><a href="/us/enterprise-software">Enterprise Software</a></li><li class=""><a href="/us/game-development">Game Development</a></li><li class=""><a href="/us/graphics">Graphics</a></li><li class=""><a href="/us/hardware-maker">Hardware &amp; Maker</a></li><li class=""><a href="/us/java">Java</a></li><li class=""><a href="/us/machine-learning">Machine Learning</a></li>
+</ul>
+</div>
+<div class="columns">
+<ul>
+<li class=""><a href="/us/microsoft">Microsoft &amp; .NET</a></li><li class=""><a href="/us/mobile">Mobile</a></li><li class=""><a href="/us/networking">Networking &amp; Cloud</a></li><li class=""><a href="/us/open-source">Open Source</a></li><li class=""><a href="/us/programming">Programming</a></li><li class=""><a href="/us/services/publishing-partners">Publishing Partners</a></li><li class=""><a href="/us/python">Python</a></li><li class=""><a href="/us/security">Security</a></li><li class=""><a href="/us/web-development">Web Development</a></li><li class=""><a href="/us/services/publishing-partners">Publishing Partners</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="column small-12 medium-4" id="column1">
+<a class="footer__links__headline flap--mobile">Services</a>
+<div>
+<ul class="footer__links__column__links">
+<li class=""><a href="/us/about">About Us</a></li><li class=""><a href="/us/services/academics">Academics</a></li><li class=""><a href="/us/shop/affiliate">Affiliate Program</a></li><li class=""><a href="/us/services/book-reviewers">Book Reviewers</a></li><li class=""><a href="/us/services/customer-support/buying-in-the-apress-shop">Customer Support</a></li><li class=""><a href="/us/services/events">Events</a></li><li class=""><a href="/us/services/news">News &amp; Newsletter</a></li><li class=""><a href="/us/services/rights-permission">Rights &amp; Permissions</a></li><li class=""><a href="/us/services/source-code">Source Code</a></li><li class=""><a href="/us/services/errata">Submit Errata</a></li><li class=""><a href="/us/services/tech-review">Technical Reviewers</a></li><li class=""><a href="/us/services/user-groups">User Groups</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="column small-12 large-6">
+<div class="row">
+<div class="column small-12 medium-4" id="column2">
+<a class="footer__links__headline flap--mobile">Write for Us</a>
+<div>
+<ul class="footer__links__column__links">
+<li class=""><a href="/us/write-for-us">Write</a></li><li class=""><a href="/us/write-for-us/submit-a-proposal">Submit a proposal</a></li><li class=""><a href="/us/write-for-us/publishing-process">Publishing process</a></li><li class=""><a href="/us/write-for-us/author-services">Documents for Current Authors</a></li>
+</ul>
+</div>
+</div>
+<div class="column small-12 medium-4" id="column3">
+<a class="footer__links__headline flap--mobile">Company</a>
+<div>
+<ul class="footer__links__column__links">
+<li class=""><a href="/us/about">About Us</a></li><li class=""><a href="/us/blog">Blog</a></li><li class=""><a href="/us/services/events">Events</a></li><li class=""><a href="/us/services/news">News</a></li><li class=""><a href="/us/services/publishing-partners">Publishing Partners</a></li><li class=""><a href="/us/services/contact-us">Contact Us</a></li><li class=""><a href="/us/about/team">Team</a></li>
+</ul>
+</div>
+</div>
+<div class="column small-12 medium-4">
+<h6 class="footer__links__headline">&nbsp;</h6>
+<div class="footer__links__payment">
+<i>¶</i>
+<i>¢</i>
+<i>“</i>
+<i>¡</i>
+</div>
+<div class="footer__links__trustpilot">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer__meta">
+<div class="row">
+<div class="column small-8 medium-9">
+<ul class="footer__meta__links">
+<li><a class="footer__meta__logo" href="/"></a></li>
+
+<li class=""><span>© 2018 Apress is part of Springer Nature</span></li><li class=""><a href="/us/legal/web-site-terms-and-conditions-of-use/10875332">Terms &amp; Conditions</a></li><li class=""><a href="/us/legal/apress-online-privacy-notice/10875330">Privacy Policy</a></li>
+
+</ul>
+</div>
+<div class="column small-4 medium-3">
+<ul class="footer__meta__social">
+
+<li class="footer-icon"><a href="https://twitter.com/apress">1</a></li><li class="footer-icon"><a href="https://www.facebook.com/ApressMedia/">2</a></li>
+
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<div>
+
+<script type="text/javascript">/*<![CDATA[*/ 
+		var webtrekkConfig = webtrekkConfig || {
+			trackId : '933650246438988', 
+			trackDomain: 'springergmbh01.webtrekk.net', 
+			domain : 'www.apress.com;checkout.apress.com;secure.worldpay.com', 
+			cookie : '1', 
+			executePluginFunction : 'wt_socialMedia;wt_scrollposition' 
+		};
+		var pageConf = {
+			contentId : 'us', 
+			contentGroup : {"1":"us"}, 
+			customParameter : {"5":"cms-page-group-unmapped"}, 
+			linkTrack : 'link',
+			linkTrackAttribute : 'id',
+			heatmap : '0', 
+			form : '0'
+		};
+		var wt = new webtrekkV3(pageConf);
+		wt.customerId='';
+		wt.customSessionParameter={};
+		wt.mediaCode='wt_mc;cm_mmc';
+		wt.linkTrackDownloads='avi;bmp;csv;doc;docx;dotx;eps;exe;gif;gz;jpeg;jpg;m4v;mov;mp3;mp4;mpg;pdf;png;ppt;pptx;ps;rss;rtf;swf;tar;tar.gz;tgz;tif;txt;wmv;xls;xlsx;zip';
+		wt.sendinfo();
+	/*]]>*/
+</script>
+
+</div>
+<noscript>
+<div id="jsnotice" class="prompt-bar">
+<p>JavaScript is currently disabled, this site works much better if you
+<a href="http://enable-javascript.com/">
+enable JavaScript in your browser</a>.
+</p>
+</div>
+</noscript>
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M48LJF&gtm_auth=H9WR51Mt3jYIbQSiz_4-IQ&gtm_preview=env-1&gtm_cookies_win=x;"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager -->
+
+
+</body>
+<!--[if lt IE 7]> </html> <![endif]-->
+<!--[if IE 7]> </html> <![endif]-->
+<!--[if IE 8]> </html> <![endif]-->
+<!--[if IE 9]> </html> <![endif]-->
+<!--[if gt IE 9]><!--> </html> <!--<![endif]-->
